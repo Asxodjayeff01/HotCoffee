@@ -1,0 +1,217 @@
+@import url(fonts.css);
+
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-link {
+    color: #000000;
+    display: inline-block;
+    padding: 23px 22px;
+    transition: 0.4s;
+}
+
+.header-link:hover {
+    color: red;
+}
+
+.header-list {
+    display: flex;
+}
+
+.input {
+    border: none;
+    outline: none;
+    row-gap: 12px;
+}
+
+.footer-socials {
+    display: flex;
+}
+
+.main {
+    font-family: "Roboto";
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title2 {
+    color: gray;
+}
+
+.main-img {
+    display: flex;
+}
+
+.txt {
+    width: 500px;
+    padding: 25px;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: left;
+    padding: 25px;
+}
+
+.section-img {
+    display: flex;
+}
+
+.section {
+    width: 966px;
+    max-width: 100%;
+    background-color: red;
+    margin: auto;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    background-color: #FBFBFB;
+    padding: 70px 0px;
+    margin-bottom: 39px;
+}
+
+.left-foo {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    color: #718096;
+}
+
+.read-more {
+    color: #2D3748;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    color: red;
+}
+
+.product-txt {
+    font-weight: 400;
+    color: #718096;
+    margin: 18px;
+}
+
+.section2 {
+    display: flex;
+}
+
+.product2 {
+    font-weight: 400;
+    color: #718096;
+    margin: 43px;
+}
+
+.banner2 {
+    display: flex;
+    width: 966px;
+    margin: auto;
+    max-width: 100%;
+    justify-content: space-between;
+   
+}
+.box {
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+    flex: 0; 
+    font-weight: 400;
+    color: #718096;
+    margin: 18px;
+}
+.box2 {
+    padding: 10px;
+    color: black;
+}
+.page {
+    font-family: "Roboto";
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-one {
+    font-size: 22px;
+    padding: 25px;   
+    color: #718096;
+}
+.h3 {
+    font-size: 50px;
+}
+
+.footer{
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+.div-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    color: #718096;
+}
+.mackbook {
+    display: flex;
+    align-items: flex-end;
+}
+.next-page{
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
